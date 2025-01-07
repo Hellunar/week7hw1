@@ -59,6 +59,46 @@ footer {
   background-color: #fafafa;
   grid-column: 4;
 }
-h3 {
+p {
   text-align: center;
+  font-weight: bolder;
+}
+
+@media (min-width: 1000px) {
+  p {
+    font-size: 50px;
+  }
+  .container {
+    height: 100vh;
+  }
+  main {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 700px) {
+  p {
+    font-size: 20px;
+  }
+  main {
+    height: 60vh;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  p {
+    font-size: 40px;
+  }
+  .container {
+    height: 100vh;
+  }
+  main {
+    height: 60vh;
+  }
+}
+footer {
+  height: 20vh;
+}
+header {
+  height: 20vh;
 }
